@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "editorconfig": "editorconfig-checker",
-    "html": "node-w3c-validator -i --exclude .node_modules .json -f lint -evH"
+    "html": "node-w3c-validator -i --exclude .json -f lint -evH"
   },
   "repository": {
     "type": "git",
