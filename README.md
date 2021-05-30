@@ -1,3 +1,5 @@
+[![EditorConfig](https://github.com/P0rt/sardayal/actions/workflows/editorconfig.yml/badge.svg)](https://github.com/P0rt/sardayal/actions/workflows/editorconfig.yml)
+
 # Сайт газеты города Сардаял.
 
 Вот тут [макет](https://www.figma.com/file/bsyeQt6HpUYaRTmfaUmX7a/%D0%9A%D1%80%D1%83%D0%B6%D0%BE%D0%BA?node-id=1%3A3) в фигме.
