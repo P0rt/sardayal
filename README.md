@@ -1,4 +1,5 @@
 [![EditorConfig](https://github.com/P0rt/sardayal/actions/workflows/editorconfig.yml/badge.svg)](https://github.com/P0rt/sardayal/actions/workflows/editorconfig.yml)
+[![HTML](https://github.com/P0rt/sardayal/actions/workflows/html.yml/badge.svg)](https://github.com/P0rt/sardayal/actions/workflows/html.yml)
 
 # Сайт газеты города Сардаял.
 
