@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "editorconfig": "editorconfig-checker"
+    "editorconfig": "editorconfig-checker",
+    "html": "node-w3c-validator -i --exclude .node_modules .json -f lint -evH"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/P0rt/sardayal#readme",
   "dependencies": {
-    "editorconfig-checker": "^4.0.2"
+    "editorconfig-checker": "^4.0.2",
+    "node-w3c-validator": "^2.0.1"
   }
 }
