@@ -1,0 +1,22 @@
+{
+  "name": "sardayal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-checker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P0rt/sardayal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P0rt/sardayal/issues"
+  },
+  "homepage": "https://github.com/P0rt/sardayal#readme",
+  "dependencies": {
+    "editorconfig-checker": "^4.0.2"
+  }
+}
