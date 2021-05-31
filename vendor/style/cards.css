@@ -1,0 +1,22 @@
+p {
+    font-size: large;
+}
+.future-news {
+display: grid;
+grid-template-rows: 100px 100px 100px;
+grid-template-columns: 100px 100px 100px;
+}
+
+.box {
+background: #ffffff;
+border: 1px solid #EECB45;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #AAA;
+height: 326px;
+width: 387px;
+}
+.box:hover{
+background: #EECB45;
+}
