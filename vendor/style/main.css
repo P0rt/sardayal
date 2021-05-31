@@ -1,18 +1,23 @@
 @import './normalize.css';
+@import './inter.css';
 @import './cards.css';
 @import './video.css';
 
-h2{
-    display: grid;
+
+.header{
+    display: block;
     position: absolute;
     margin-top: 40px;
     margin-left: 120px;
     height: 184px;
     width: 260px;
-    font-family: IDEOLOGY;
-    font-style: normal;
+
+    font-family: 'Inter';
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
+    
+    text-transform: uppercase;
+
     color: #FFFFFF;
 }
