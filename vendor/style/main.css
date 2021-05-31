@@ -1,1 +1,3 @@
-@import './cards.css'
+@import './normalize.css';
+@import './cards.css';
+@import './video.css';
