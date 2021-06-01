@@ -1,9 +1,14 @@
 .section__video{
     display: grid;
-    width: fit-content;
-    height: fit-content;
 }
 
 .section__video_full{
     display: block;
+
+}
+.img-test{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
