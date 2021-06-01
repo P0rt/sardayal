@@ -1,0 +1,17 @@
+.image__pages {
+    background-color: white;
+    width: 724.45px;
+    height: 361.33px;
+    align-content: center;
+}
+
+img {
+    object-fit: fill;
+
+}
+
+.button__style{
+    background-color: white;
+    border: 2px solid #EECB45;
+    border-radius: 24px;
+}
