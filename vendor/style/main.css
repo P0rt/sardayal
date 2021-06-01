@@ -6,9 +6,8 @@
     display: flex;
     z-index: 0;
     margin-top: -1010px;
-    align-items: flex-start;
-    margin-left: 120px;
-    margin-right: 120px;
+    align-items: start;
+
     text-transform: uppercase;
     justify-content: space-between;
 }
@@ -18,13 +17,11 @@
 
     height: 184px;
     width: 260px;
-
+    margin-left: 120px;
 
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
-
-
 
     color: #FFFFFF;
 }
@@ -33,6 +30,8 @@
     display: block;
     height: 138px;
     width: 260px;
+
+    margin-right: 120px;
 
     font-weight: 500;
     font-size: 32px;
