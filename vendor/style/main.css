@@ -2,6 +2,7 @@
 @import './inter.css';
 @import './cards.css';
 @import './video.css';
+@import './future-news.css';
 .headers{
     display: flex;
     z-index: 0;
@@ -30,6 +31,7 @@
     display: block;
     height: 138px;
     width: 260px;
+    text-align: right;
 
     margin-right: 120px;
 
@@ -59,8 +61,8 @@
     line-height: 34px;
     color: #FFFFFF;
 }
-.news{
-    display: block;
-    margin-top: 80px;
+
+.interview{
+    margin-top: 160px;
     margin-left: 120px;
 }
