@@ -2,9 +2,12 @@
 @import './inter.css';
 @import './cards.css';
 @import './video.css';
+.headers{
+    display: flex;
+    position: absolute;
+}
 
-
-.header{
+.header-1{
     display: block;
     position: absolute;
     margin-top: 40px;
@@ -16,7 +19,26 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
-    
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header-2{
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 120px;
+    height: 138px;
+    width: 260px;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+
     text-transform: uppercase;
 
     color: #FFFFFF;

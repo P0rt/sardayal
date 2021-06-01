@@ -1,0 +1,20 @@
+@font-face {
+    src: url("/vendor/fonts/Cyrillic/IDEOLOGY-MonoBold.ttf") format("ttf");
+    font-family: 'IDEOLOGY-MonoBold';
+    /* font-weight:  500; */
+
+}
+/* @font-face {
+    src: url("Inter-Bold/Inter-Bold.woff2") format("woff2"),
+         url("Inter-Bold/Inter-Bold.woff") format("woff");
+    font-family: 'Inter';
+    font-weight:  700;
+
+}
+@font-face {
+    src: url("Inter-Black/Inter-Black.woff2") format("woff2"),
+         url("Inter-Black/Inter-Black.woff") format("woff");
+    font-family: 'Inter';
+    font-weight:  900;
+
+} */
