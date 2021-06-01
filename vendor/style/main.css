@@ -1,23 +1,23 @@
 @import '../fonts/fonts.css';
 @import './normalize.css';
-@import './inter.css';
 @import './cards.css';
 @import './video.css';
 @import './future-news.css';
 @import './interview.css';
 @import './photoreport.css';
 @import './manifesto.css';
-.headers{
+
+.headers {
     display: flex;
     z-index: 0;
     margin-top: -1010px;
     align-items: start;
-
+    font-family: 'IDEOLOGY';
     text-transform: uppercase;
     justify-content: space-between;
 }
 
-.header {
+.header-1 {
     display: block;
     font-family: 'IDEOLOGY';
     height: 184px;
