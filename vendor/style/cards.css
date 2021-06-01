@@ -4,12 +4,14 @@
 
 .image__box {
     border-radius: 4px;
+    background-color: white;
 }
 
 img {
     object-fit: cover;
     width: 355px;
     height: 194px;
+    background-color: white;
 }
 
 .future-news {
