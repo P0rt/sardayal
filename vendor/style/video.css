@@ -1,7 +1,7 @@
 .section__video{
     display: grid;
-    width: 1400px;
-    height: 1050px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .section__video_full{

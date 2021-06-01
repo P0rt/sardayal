@@ -6,18 +6,19 @@
 @import './interview.css';
 @import './photoreport.css';
 @import './manifesto.css';
-
+.img_test{
+    height: 1050px;
+    width: 1400px;
+}
 .headers {
     display: flex;
-    z-index: 0;
     margin-top: -1010px;
-    align-items: start;
-    font-family: 'IDEOLOGY';
+    align-items: flex-start;
     text-transform: uppercase;
     justify-content: space-between;
 }
 
-.header-1 {
+.header-1{
     display: block;
     font-family: 'IDEOLOGY';
     height: 184px;
@@ -36,6 +37,7 @@
     height: 138px;
     width: 260px;
     text-align: right;
+    font-family: 'IDEOLOGY';
 
     margin-right: 120px;
 
