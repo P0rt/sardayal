@@ -69,7 +69,59 @@
 h2{
     text-transform: uppercase;
 }
-.block__text{
+.future-news__text{
+    display: block;
+    height: 342px;
+    width: 1160px;
+
+    font-family: 'IDEOLOGY', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #EECB45;
+    ;
+}
+.interview__text{
+    display: block;
+    height: 342px;
+    width: 1160px;
+
+    font-family: 'IDEOLOGY', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #EECB45;
+    ;
+}
+.photoreport__text{
+    display: block;
+    height: 342px;
+    width: 1160px;
+
+    font-family: 'IDEOLOGY', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #EECB45;
+    ;
+}
+.topic-1__text{
+    display: block;
+    height: 342px;
+    width: 1160px;
+
+    font-family: 'IDEOLOGY', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #EECB45;
+    ;
+}
+.topic-2__text{
     display: block;
     height: 342px;
     width: 1160px;
