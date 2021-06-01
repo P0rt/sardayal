@@ -15,7 +15,8 @@
     ;
 }
 .photoreport__block{
-    display: block;
+    display: grid;
+    grid-template-columns: 368px 386px 386px;
     height: 1032px;
     border:4px solid black;
     width: 1160px;
