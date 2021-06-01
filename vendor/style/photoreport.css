@@ -18,16 +18,15 @@
     display: grid;
     grid-template-columns: 386px 386px 386px;
     grid-template-rows: 516px 516px;
-    height: 1032px;
     border:4px solid black;
-    gap: 0;
+    column-gap: 0px;
 }
 .photoreport__block_text{
     display: grid;
     height: 516px;
     width: 386px;
 
-    font-family: IDEOLOGY;
+    font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
