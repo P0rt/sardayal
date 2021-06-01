@@ -1,9 +1,7 @@
 .section__video{
     display: grid;
-    position: relative;
-    width: 100%;
-    height: 100%;
-
+    width: 1400px;
+    height: 1050px;
 }
 
 .section__video_full{

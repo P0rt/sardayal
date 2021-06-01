@@ -4,42 +4,58 @@
 @import './video.css';
 .headers{
     display: flex;
-    position: absolute;
+    z-index: 0;
+    margin-top: -1010px;
+    align-items: start;
+
+    text-transform: uppercase;
+    justify-content: space-between;
 }
 
 .header-1{
     display: block;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 120px;
+
     height: 184px;
     width: 260px;
+    margin-left: 120px;
 
-    font-family: 'Inter';
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
-
-    text-transform: uppercase;
 
     color: #FFFFFF;
 }
 
 .header-2{
     display: block;
-    position: absolute;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: 120px;
     height: 138px;
     width: 260px;
 
-    font-family: 'Inter';
+    margin-right: 120px;
+
     font-weight: 500;
     font-size: 32px;
     line-height: 46px;
 
-    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+.uppercase{
+    text-transform: uppercase;
+}
+
+.description{
+    display: block;
+    height: 272px;
+    width: 644px;
+    z-index: 0;
+    margin-top: -594px;
+    margin-left: 120px;
+
+    font-family: 'IDEOLOGY', Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
     color: #FFFFFF;
 }
