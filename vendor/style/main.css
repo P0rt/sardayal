@@ -69,7 +69,9 @@
 h2{
     text-transform: uppercase;
 }
-
+h3{
+    text-transform: uppercase;
+}
 
 .topic-1__text{
     display: block;
