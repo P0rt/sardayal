@@ -14,12 +14,34 @@
     color: #EECB45;
     ;
 }
-.photoreport__block{
+
+.photoreport__block_vert{
     display: grid;
-    grid-template-columns: 386px 386px 386px;
+    max-width: 1160px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 516px 516px;
-    border:4px solid black;
+    border:2px solid #EECB45;
     column-gap: 0px;
+}
+.photoreport__block_gor{
+    display: grid;
+    max-width: 1160px;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 434px 434px 434px;
+    border:2px solid #EECB45;
+}
+
+.photoreport__block_fear{
+    display: grid;
+    height: 516px;
+    width: 386px;
+
+    font-family: 'IDEOLOGY';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
 }
 .photoreport__block_text{
     display: grid;
