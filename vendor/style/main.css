@@ -2,6 +2,7 @@
 @import './inter.css';
 @import './cards.css';
 @import './video.css';
+@import './future-news.css';
 .headers{
     display: flex;
     z-index: 0;
@@ -60,21 +61,4 @@
     line-height: 34px;
     color: #FFFFFF;
 }
-.news{
-    display: block;
-    margin-top: 80px;
-    margin-left: 120px;
-}
-.news-text{
-    display: block;
-    height: 342px;
-    width: 1160px;
 
-    font-family: 'IDEOLOGY', Arial;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 57px;
-    color: #EECB45;
-    ;
-}
