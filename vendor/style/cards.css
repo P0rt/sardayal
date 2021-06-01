@@ -3,7 +3,6 @@
 }
 
 .image__box {
-    border-radius: 4px;
     background-color: white;
 }
 
@@ -11,18 +10,19 @@ img {
     object-fit: cover;
     width: 355px;
     height: 194px;
-    background-color: white;
 }
 
 .future-news {
 display: grid;
+width: 1161px;
+height: 978px;
 grid-template-rows: 326px 326px 326px;
 grid-template-columns: 387px 387px 387px;
 }
 
 .table__cell {
 background: #ffffff;
-border: 1px solid #EECB45;
+/*border: 1px solid #EECB45; */
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
@@ -32,4 +32,22 @@ display: flex;
 
 .table__cell:hover{
 background: #EECB45;
+}
+
+ul{
+    border: 1px solid #EECB45;
+    border-width: 0 0 1px 1px;
+    padding: 0;
+}
+
+li{
+    border: 1px solid #EECB45;
+    border-width: 1px 1px 0 0;
+}
+
+.img__text{
+    font-size: 24px;
+    color: #030303;
+    line-height: 34px;
+    text-align: center;
 }
