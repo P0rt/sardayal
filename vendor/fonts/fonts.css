@@ -1,11 +1,11 @@
 @font-face {
-    src: url("./IDEOLOGY-Regular.otf") format("otf");
+    src: url("./IDEOLOGY-Regular.woff") format("woff");
     font-family: 'IDEOLOGY-Regular';
     /* font-weight:  400; */
 
 }
 @font-face {
-    src: url("./IDEOLOGY2-MediumHeavy.otf") format("otf");
-    font-family: 'IDEOLOGY2';
+    src: url("./IDEOLOGY2-MediumHeavy.woff") format("woff");
+    font-family: 'IDEOLOGY';
     /* font-weight:  700; */
 }
