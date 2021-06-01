@@ -23,7 +23,6 @@ grid-template-columns: 387px 387px 387px;
 .table__cell {
 background: #ffffff;
 border: 1px solid #EECB45;
-display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
