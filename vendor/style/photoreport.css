@@ -1,3 +1,7 @@
+.photoreport{
+    margin-top: 160px;
+    margin-left: 120px;
+}
 .photoreport__text{
     display: block;
     height: 342px;
@@ -10,4 +14,7 @@
     line-height: 57px;
     color: #EECB45;
     ;
+}
+.photoreport__block{
+    display: block;
 }

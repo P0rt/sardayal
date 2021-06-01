@@ -4,6 +4,8 @@
 @import './video.css';
 @import './future-news.css';
 @import './interview.css';
+@import './photoreport.css';
+@import './manifesto.css';
 .headers{
     display: flex;
     z-index: 0;
