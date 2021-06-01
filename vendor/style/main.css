@@ -1,3 +1,4 @@
+@import '../fonts/fonts.css';
 @import './normalize.css';
 @import './inter.css';
 @import './cards.css';
@@ -13,9 +14,9 @@
     justify-content: space-between;
 }
 
-.header-1{
+.header {
     display: block;
-
+    font-family: 'IDEOLOGY';
     height: 184px;
     width: 260px;
     margin-left: 120px;
