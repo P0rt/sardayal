@@ -21,10 +21,9 @@
     height: 978px;
     grid-template-rows: 326px 326px 326px;
     grid-template-columns: 387px 387px 387px;
-}
-.future-news__grid {
     border-radius: 25px;
 }
+
 ul li:nth-child(1){
     border-radius: 24px 0 0 0 ;
 }
