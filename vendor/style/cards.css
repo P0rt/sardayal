@@ -5,6 +5,7 @@
 .image__box {
     background-color: white;
     border-radius: 12px;
+    margin-top: 16px;
 }
 
 .cards__img {
