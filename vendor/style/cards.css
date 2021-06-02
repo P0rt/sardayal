@@ -4,33 +4,50 @@
 
 .image__box {
     background-color: white;
+    border-radius: 12px;
 }
 
 .cards__img {
     object-fit: cover;
+    border-radius: 12px;
     width: 355px;
     height: 194px;
 }
 
 .future-news__grid {
-display: grid;
-width: 1161px;
-height: 978px;
-grid-template-rows: 326px 326px 326px;
-grid-template-columns: 387px 387px 387px;
+    display: grid;
+    width: 1161px;
+    height: 978px;
+    grid-template-rows: 326px 326px 326px;
+    grid-template-columns: 387px 387px 387px;
+}
+.future-news__grid {
+    border-radius: 25px;
+}
+ul li:nth-child(1){
+    border-radius: 24px 0 0 0 ;
+}
+ul li:nth-child(3){
+    border-radius: 0 24px  0 0 ;
+}
+ul li:nth-child(7){
+    border-radius: 0 0 0 24px ;
+}
+ul li:nth-child(9){
+    border-radius: 0 0 24px 0;
 }
 
 .table__cell {
-background: #ffffff;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-color: #AAA;
-display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #AAA;
+    display: flex;
 }
 
 .table__cell:hover{
-background: #EECB45;
+    background: #EECB45;
 }
 
 ul{
@@ -55,5 +72,4 @@ li{
 
 a {
     text-decoration:none;
-
   }
