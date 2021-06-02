@@ -1,4 +1,4 @@
-.news{
+.future-news{
     margin-top: 80px;
     margin-left: 120px;
 }
@@ -7,11 +7,11 @@
     height: 342px;
     width: 1160px;
 
-    font-family: 'IDEOLOGY', Arial;
+    font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 57px;
+
     color: #EECB45;
-    ;
 }
