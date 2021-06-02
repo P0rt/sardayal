@@ -29,6 +29,10 @@
     line-height: 26px;
 }
 
+.button__style:hover{
+    background-color: #EECB45;
+}
+
 .button__block {
     display:flex;
     justify-content: center;
