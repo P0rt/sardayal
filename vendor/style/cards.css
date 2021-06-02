@@ -6,7 +6,7 @@
     background-color: white;
 }
 
-img {
+.cards__img {
     object-fit: cover;
     width: 355px;
     height: 194px;
