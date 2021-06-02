@@ -21,7 +21,9 @@
     max-height: 580px;
     grid-template-columns: 386px 774px;
     grid-template-rows: 580px;
+
     border:2px solid #EECB45;
+    border-radius: 24px;
 }
 .interview__block_text{
     display: block;
@@ -41,11 +43,18 @@
     width: 386px;
     margin: 0px;
     padding: 0px;
+    border-radius: 22px 0 0 22px ;
 }
 .interview__block_name{
     position: absolute;
-    margin: 0px;
-}
-.interview__block-img{
-    display: block;
+    margin-top: 510px;
+    margin-left: 25px;
+
+    font-family: IDEOLOGY;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #FFFFFF;
 }
