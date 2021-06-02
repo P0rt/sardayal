@@ -27,12 +27,15 @@
 ul li:nth-child(1){
     border-radius: 24px 0 0 0 ;
 }
+
 ul li:nth-child(3){
     border-radius: 0 24px  0 0 ;
 }
+
 ul li:nth-child(7){
     border-radius: 0 0 0 24px ;
 }
+
 ul li:nth-child(9){
     border-radius: 0 0 24px 0;
 }
@@ -70,6 +73,6 @@ li{
     width: 355px;
 }
 
-a {
+a{
     text-decoration:none;
-  }
+}
