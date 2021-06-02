@@ -6,7 +6,6 @@
 .topic__text {
     display: block;
     width: 1160px;
-    margin-top: 24px;
     font-family: 'IDEOLOGY', Arial;
     font-style: normal;
     font-weight: 500;
@@ -14,34 +13,40 @@
     line-height: 57px;
     color: #EECB45;
     margin: auto;
+    margin-bottom: 26px;
 }
 
 .news__grid {
     display: flex;
-    min-width: 1160px;
-    min-height: 280px;
+    justify-content: space-around;
+    max-width: 1160px;
     border: 1px solid #EECB45;
     border-radius: 25px;
     margin-top: 36px;
+    margin: auto;
 }
 
-.news__table__cell {
-    background: #ffffff;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    color: #AAA;
-    display: flex;
-}
-
-.news__image__box {
+.news__image-box {
     object-fit: cover;
     width: 387px;
+    position: relative;
+    border-radius: 50px;
+
 }
 
-.news__cards__img {
+.news__cards-img {
     object-fit: cover;
-    border-radius: 12px;
-    width: 355px;
-    height: 260px;
+    width: 387px;
+    border-radius: 50px;
+}
+
+.news__text {
+    font-family: 'IDEOLOGY-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    position: absolute;
+    left: 24px;
+    top: 187.8px;
 }
