@@ -22,6 +22,11 @@
     height: 74px;
     align-items: center;
     margin-bottom: 39.67px;
+    font-family: 'IDEOLOGY';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .button__block {
@@ -38,7 +43,6 @@
     line-height: 57px;
     width: 760px;
     margin: auto;
-    height: 114px;
     margin-top: 40px;
 }
 

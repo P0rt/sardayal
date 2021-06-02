@@ -5,6 +5,7 @@
 .image__box {
     background-color: white;
     border-radius: 12px;
+    margin-top: 16px;
 }
 
 .cards__img {
@@ -20,9 +21,6 @@
     height: 978px;
     grid-template-rows: 326px 326px 326px;
     grid-template-columns: 387px 387px 387px;
-}
-
-.future-news__grid {
     border-radius: 25px;
 }
 
