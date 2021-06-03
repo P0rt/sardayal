@@ -76,3 +76,9 @@ li{
 a{
     text-decoration:none;
 }
+
+@media only screen and (max-width: 340px) and (min-width: 100px) {
+    .future-news {
+        display: none;
+    }
+}
