@@ -1,11 +1,24 @@
 .future-news{
+    max-width: 1160px;
+    margin: auto;
     margin-top: 80px;
-    margin-left: 120px;
 }
-.future-news__text{
-    display: block;
-    height: 342px;
-    width: 1160px;
+
+.future-news__h2{
+    margin: 0;
+
+    font-family: 'IDEOLOGY';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+}
+
+.future-news__caption{
+    margin-top: 24px;
+    margin-bottom: 0;
 
     font-family: 'IDEOLOGY';
     font-style: normal;
