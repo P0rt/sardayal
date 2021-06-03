@@ -111,6 +111,8 @@ h3{
 
 .margin {
     margin: auto;
+    max-width: 1160px;
+    width: 100%;
 }
 
 
