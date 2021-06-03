@@ -1,6 +1,7 @@
 .interview{
     max-width: 1160px;
     margin: auto;
+    margin-top: 160px;
 }
 .interview__h2{
     margin: 0;
