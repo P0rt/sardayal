@@ -77,8 +77,8 @@ a{
     text-decoration:none;
 }
 
-@media only screen and (max-width: 340px) and (min-width: 100px) {
-    .future-news {
+@media screen and (max-width: 340px) {
+    .future-news__grid {
         display: none;
     }
 }
