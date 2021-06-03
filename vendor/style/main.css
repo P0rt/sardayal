@@ -1,7 +1,7 @@
 @import '../fonts/fonts.css';
 @import './normalize.css';
 @import './cards.css';
-@import './video.css';
+@import './header.css';
 @import './future-news.css';
 @import './interview.css';
 @import './photoreport.css';
@@ -35,66 +35,12 @@
     height: 1050px;
     width: 100%;
 }
-.headers {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: absolute;
-    margin-top: 40px;
-    text-transform: uppercase;
-
-}
-
-.header-1{
-    display: block;
-    font-family: 'IDEOLOGY';
-    height: 184px;
-    width: 260px;
-    margin-left: 120px;
-
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 46px;
-
-    color: #FFFFFF;
-}
-
-.header-2{
-    display: block;
-    height: 138px;
-    width: 260px;
-    text-align: right;
-    font-family: 'IDEOLOGY';
-
-    margin-right: 120px;
-
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 46px;
-
-    color: #FFFFFF;
-}
 
 .uppercase{
     text-transform: uppercase;
 }
 
-.description{
-    display: block;
-    height: 272px;
-    width: 644px;
-    position: absolute;
-    margin-top: 524px;
-    margin-left: 120px;
 
-    font-family: 'IDEOLOGY', Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
-    color: #FFFFFF;
-}
 
 h3{
     text-transform: uppercase;
@@ -103,7 +49,4 @@ h3{
 .margin {
     margin: auto;
 }
-
-
-
 
