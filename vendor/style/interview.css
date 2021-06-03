@@ -1,9 +1,21 @@
-.interview__text{
-    margin-top: 160px;
-    margin-left: 120px;
-    display: block;
-    max-height: 342px;
+.interview{
     max-width: 1160px;
+    margin: auto;
+}
+.interview__h2{
+    margin: 0;
+
+    font-family: 'IDEOLOGY';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+}
+.interview__caption{
+    margin-top: 24px;
+    margin-bottom: 0;
 
     font-family: 'IDEOLOGY';
     font-style: normal;
@@ -13,10 +25,7 @@
 
     color: #EECB45;
 }
-.interview__h2{
-    margin-top: 160px;
-    margin-left: 120px;
-}
+
 .interview__block{
     display: grid;
     max-width: 1160px;
