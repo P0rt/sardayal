@@ -1,13 +1,10 @@
 .interview{
-    display: block;
-}
-.interview__text{
     max-width: 1160px;
     margin: auto;
 }
-.interview__text_h2{
+.interview__h2{
     margin: 0;
-    
+
     font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
@@ -16,7 +13,7 @@
 
     text-transform: uppercase;
 }
-.interview__text_caption{
+.interview__caption{
     margin-top: 24px;
     margin-bottom: 0;
 
