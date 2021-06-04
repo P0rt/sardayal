@@ -68,7 +68,7 @@ li{
 }
 
 .img__text{
-    font-size: 1.5em;
+    font-size: 150%;
     color: #030303;
     line-height: 34px;
     text-align: left;
@@ -80,12 +80,9 @@ li{
 }
 
 a {
-    text-decoration:none;
+   text-decoration:none;
 }
 
-@media screen {
-
-}
 @media screen and (max-width: 560px) {
     .future-news__grid {
         display: grid;

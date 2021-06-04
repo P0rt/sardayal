@@ -56,7 +56,20 @@
     left: 24px;
     bottom: 0;
 }
-
+@media screen and (max-width: 640px) {
+    .second__img {
+        display: none;
+    }
+    .news__grid {
+        display: flex;
+        justify-content: space-around;
+        max-width: 387px;
+        border: 2px solid #EECB45;
+        border-radius: 25px;
+        margin-top: 36px;
+        margin: auto;
+    }
+}
 @media screen and (max-width: 320px) {
     .topic__text {
         display: block;
@@ -70,4 +83,5 @@
         margin: auto;
         margin-bottom: 26px;
     }
+
 }
