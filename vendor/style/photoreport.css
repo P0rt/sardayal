@@ -134,6 +134,7 @@
     line-height: 34px;
 }
 .img_photo_vert{
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
@@ -147,6 +148,7 @@
     border-radius: 0 0 24px 0;
 }
 .img_photo_hor{
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
@@ -324,7 +326,6 @@
     }
 
     .img_photo_vert{
-        object-fit: cover;
         width: 100%;
         height: 100%;
     }
@@ -346,7 +347,6 @@
     }
 
     .img_photo_hor{
-        object-fit: cover;
         width: 100%;
         height: 100%;
     }

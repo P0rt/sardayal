@@ -9,7 +9,7 @@
     <style>
 
       .swiper-container {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
@@ -157,13 +157,15 @@
             </ul>
         </section>
         <section class="interview">
-            <h2 class="interview__h2">интервью</h2>
-            <p class="interview__caption">
-                Редакция газеты ЖДС обсуждает, стоит ли остаться в деревне ради речки, тишины и друзей или уехать к гигантским зданиям, батутам, зоопаркам и магазинам с охраной.
-            </p>
+            <div class="interview__text">
+                <h2 class="interview__h2">интервью</h2>
+                <p class="interview__caption">
+                    Редакция газеты ЖДС обсуждает, стоит ли остаться в деревне ради речки, тишины и друзей или уехать к гигантским зданиям, батутам, зоопаркам и магазинам с охраной.
+                </p>
+            </div>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" style="margin-left: 120px;">
                     <section class="interview__block">
                         <section>
                             <p class="interview__block_name">Эля</p>
@@ -290,11 +292,15 @@
 
               <script>
                 let swiper = new Swiper(".mySwiper", {
-                  spaceBetween: 40,
-                  loop: true,
+                  slidesPerView: 1,
+                  width: 1160,
+                  spaceBetween: 0,
+                  centerInsufficientSlides:true,
                   grabCursor: true,
-                  slidesPerView: 1.2,
-                  centeredSlides: true,
+                  slidesPerGroup: 1,
+                  slidesPerColumn: 1,
+                  direction: 'horizontal',
+                  effect: 'slide',
                   keyboard: {
                     enabled: true,
                   },
