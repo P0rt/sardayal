@@ -92,9 +92,6 @@ a {
         border-radius: 25px;
         margin: auto;
     }
-    /* .margin {
-        margin:auto;
-    } */
     ul li:nth-child(1){
         border-radius: 24px 24px 0 0 ;
     }
