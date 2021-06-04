@@ -58,15 +58,7 @@
     border-radius: 25px;
 }
 
-.photoreport__fear{
-
-    font-family: 'IDEOLOGY';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
-}
-.photoreport__fear h3{
+.photoreport__fear_h3{
     display: block;
 
     margin-top: 95px;
@@ -215,7 +207,7 @@
 
 
         grid-template-columns: 1fr;
-        grid-template-rows: 430px 430px 430px 430px;
+        grid-template-rows: 223px 430px 430px 430px;
 
         border:2px solid #EECB45;
 
@@ -238,44 +230,37 @@
         border-radius: 25px;
     }
 
-    .photoreport__fear{
-        padding: 0px;
-
-        font-family: 'IDEOLOGY';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 34px;
-    }
-
-    .photoreport__fear h3{
+    .photoreport__fear_h3{
         display: block;
 
-        margin-top: 95px;
-        margin-left: 20px;
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-bottom: 0;
         max-width: 132px;
 
         font-family: 'IDEOLOGY';
+
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
-        line-height: 46px;
+        font-size: 20px;
+        line-height: 29px;
     }
 
-    .photoreport__fear p{
+    .photoreport__fear_p{
         display: block;
         margin-top: 8px;
-        margin-left: 20px;
-        max-width: 361px;
+        margin-left: 16px;
+        max-width: 288px;
 
         font-family: 'IDEOLOGY-Regular';
+
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 34px;
+        font-size: 16px;
+        line-height: 23px;
     }
 
-    .photoreport__softness h3{
+    .photoreport__softness_h3{
         display: block;
         margin-top: 105px;
         margin-bottom: 0px;
@@ -289,7 +274,7 @@
         line-height: 46px;
     }
 
-    .photoreport__softness p{
+    .photoreport__softness_p{
         display: block;
         margin-top: 8px;
         margin-left: 20px;
@@ -302,7 +287,7 @@
         line-height: 34px;
     }
 
-    .photoreport__happy h3{
+    .photoreport__happy_h3{
         display: block;
         margin-top: 70px;
         margin-bottom: 0px;
@@ -316,7 +301,7 @@
         line-height: 46px;
     }
 
-    .photoreport__happy p{
+    .photoreport__happy_p{
         display: block;
         margin-top: 8px;
         margin-left: 20px;
