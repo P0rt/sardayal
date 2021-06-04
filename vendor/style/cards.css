@@ -6,6 +6,8 @@
     background-color: white;
     border-radius: 12px;
     margin-top: 16px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -18,7 +20,7 @@
 
 .future-news__grid {
     display: grid;
-    width: 1161px;
+    max-width: 1160px;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 25px;
     list-style: none;
@@ -62,6 +64,7 @@ ul{
 li{
     border: 2px solid #EECB45;
     border-width: 2px 2px 0 0;
+
 }
 
 .img__text{
