@@ -175,6 +175,7 @@
         padding-right: 16px;
 
         font-family: 'IDEOLOGY';
+
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -191,6 +192,7 @@
         padding-right: 16px;
 
         font-family: 'IDEOLOGY';
+
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
@@ -201,29 +203,27 @@
 
     .photoreport__vert{
         display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 246px 430px 430px 430px;
+
         padding-left: 0px;
         padding-right: 0px;
         margin: 0;
-
-
-        grid-template-columns: 1fr;
-        grid-template-rows: 223px 430px 430px 430px;
+        margin-top: 24px;
 
         border:2px solid #EECB45;
-
         border-radius: 25px;
-
-        margin-top: 24px;
     }
 
     .photoreport__hor{
         display: grid;
-        padding: 0;
-        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 270px 320px 320px 320px;
 
-        margin-top: 40px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 434px 434px 434px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
+        margin-top: 24px;
 
         border:2px solid #EECB45;
 
@@ -248,6 +248,7 @@
 
     .photoreport__fear_p{
         display: block;
+
         margin-top: 8px;
         margin-left: 16px;
         max-width: 288px;
@@ -262,52 +263,60 @@
 
     .photoreport__softness_h3{
         display: block;
-        margin-top: 105px;
+
+        margin-top: 24px;
         margin-bottom: 0px;
         margin-left: 20px;
-        max-width: 242px;
+        max-width: 152px;
 
         font-family: 'IDEOLOGY';
+
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
-        line-height: 46px;
+        font-size: 20px;
+        line-height: 29px;
     }
 
     .photoreport__softness_p{
         display: block;
+
         margin-top: 8px;
         margin-left: 20px;
-        max-width: 545px;
+        max-width: 288px;
 
         font-family: 'IDEOLOGY-Regular';
+
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 34px;
+        font-size: 16px;
+        line-height: 23px;
     }
 
     .photoreport__happy_h3{
         display: block;
-        margin-top: 70px;
+
+        margin-top: 24px;
         margin-bottom: 0px;
-        margin-left: 20px;
-        max-width: 197px;
+        margin-left: 16px;
+        max-width: 123px;
 
         font-family: 'IDEOLOGY';
+
         font-style: normal;
         font-weight: 500;
-        font-size: 32px;
-        line-height: 46px;
+        font-size: 20px;
+        line-height: 29px;
     }
 
     .photoreport__happy_p{
         display: block;
+
         margin-top: 8px;
         margin-left: 20px;
         max-width: 545px;
 
         font-family: 'IDEOLOGY-Regular';
+
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -315,36 +324,42 @@
     }
 
     .img_photo_vert{
+        object-fit: cover;
         width: 100%;
         height: 100%;
     }
 
     .img_photo_vert:nth-child(3){
-        border-radius: 0 24px 0 0;
+        display: none;
     }
 
     .img_photo_vert:nth-child(4){
-        border-radius: 0 0 0 24px;
+        border-radius: 0;
+    }
+
+    .img_photo_vert:nth-child(5){
+        border-radius: 0 0 23px 23px;
     }
 
     .img_photo_vert:nth-child(6){
-        border-radius: 0 0 24px 0;
+        display: none;
     }
 
     .img_photo_hor{
+        object-fit: cover;
         width: 100%;
         height: 100%;
     }
 
     .img_photo_hor:nth-child(2){
-        border-radius: 0 24px 0 0;
+        display: none;
     }
 
     .img_photo_hor:nth-child(5){
-        border-radius: 0 0 0 24px;
+        border-radius: 0 0 23px 23px;
     }
 
     .img_photo_hor:nth-child(6){
-        border-radius: 0 0 24px 0;
+        display: none;
     }
 }
