@@ -11,17 +11,16 @@
 .cards__img {
     object-fit: cover;
     border-radius: 12px;
-    width: 355px;
-    height: 194px;
+    max-width: 355px;
+    width: 100%;
 }
 
 .future-news__grid {
     display: grid;
     width: 1161px;
-    height: 978px;
-    grid-template-rows: 326px 326px 326px;
-    grid-template-columns: 387px 387px 387px;
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 25px;
+    list-style: none;
 }
 
 ul li:nth-child(1){
@@ -40,28 +39,28 @@ ul li:nth-child(9){
     border-radius: 0 0 24px 0;
 }
 
-.table__cell {
+/* .table__cell {
     background: #ffffff;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     color: #AAA;
     display: flex;
-}
+} */
 
 .table__cell:hover{
     background: #EECB45;
 }
 
 ul{
-    border: 1px solid #EECB45;
-    border-width: 0 0 1px 1px;
+    border: 2px solid #EECB45;
+    border-width: 0 0 2px 2px;
     padding: 0;
 }
 
 li{
-    border: 1px solid #EECB45;
-    border-width: 1px 1px 0 0;
+    border: 2px solid #EECB45;
+    border-width: 2px 2px 0 0;
 }
 
 .img__text{
@@ -70,14 +69,16 @@ li{
     line-height: 34px;
     text-align: left;
     font-family: 'IDEOLOGY-regular';
-    width: 355px;
+    max-width: 355px;
+    width: 100%;
+    padding-left: 5px;
 }
 
 a {
     text-decoration:none;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 500px) {
     .future-news__grid {
         display: grid;
         width: 387px;
