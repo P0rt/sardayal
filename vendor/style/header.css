@@ -64,7 +64,8 @@
     max-width: 644px;
     margin-left: 120px;
     margin-right: auto;
-    font-family: 'IDEOLOGY', Arial;
+    
+    font-family: 'IDEOLOGY-Regular';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -137,7 +138,7 @@
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-        max-width: 280px;
+        max-width: 288px;
 
         font-family: 'IDEOLOGY-Regular';
         font-style: normal;
