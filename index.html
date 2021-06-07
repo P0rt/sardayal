@@ -164,7 +164,7 @@
             </div>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="margin-left: 120px;">
+                  <div class="swiper-slide" style="margin-left: 100px;">
                     <section class="interview__block">
                         <section>
                             <p class="interview__block_name">Эля</p>
@@ -287,30 +287,7 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
-              <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-              <script>
-                let swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 1,
-                  width: 1160,
-                  spaceBetween: 0,
-                  centerInsufficientSlides:true,
-                  grabCursor: true,
-                  slidesPerGroup: 1,
-                  slidesPerColumn: 1,
-                  direction: 'horizontal',
-                  effect: 'slide',
-                  keyboard: {
-                    enabled: true,
-                  },
-
-                  navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                  },
-
-                });
-              </script>
         </section>
         <section class="photoreport">
             <h2 class="photoreport__h2">Фоторепортаж</h2>
@@ -407,5 +384,36 @@
             <p class="manifesto__text">Редакция ЖДС вместе со Школой позитивных привычек составили манифест хорошей жизни Сардаяла. Каждое из этих дел может сделать нашу деревню лучше. И вашу тоже.</p>
         </section>
     </main>
-    <footer></footer>
+    <script src="./script/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          width: 1160,
+          spaceBetween: 0,
+          centerInsufficientSlides:true,
+          grabCursor: true,
+          slidesPerGroup: 1,
+          slidesPerColumn: 1,
+          direction: 'horizontal',
+          effect: 'slide',
+          keyboard: {
+            enabled: true,
+          },
+
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    width: 320
+                },
+                640:{
+                    
+                }
+            }
+
+        });
+      </script>
 </body>
