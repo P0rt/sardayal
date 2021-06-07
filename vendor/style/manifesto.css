@@ -1,6 +1,21 @@
 .manifesto{
+    max-width: 1160px;
+    margin: auto;
     margin-top: 160px;
-    margin-left: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.manifesto__h2{
+    margin: 0;
+
+    font-family: 'IDEOLOGY';
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-transform: uppercase;
 }
 .manifesto__img{
     width: 100%;
@@ -9,12 +24,58 @@
     margin-top: 40px;
 }
 .manifesto__text{
+    margin-bottom: 80px;
+    margin-top: 40px;
+
     font-family: 'IDEOLOGY';
+
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 57px;
-    margin-bottom: 80px;
-    margin-top: 40px;
+
     color: #030303;
+}
+@media only screen and (min-width: 320px) and (max-width: 640px){
+    .manifesto{
+        max-width: 640px;
+        margin: auto;
+        margin-top: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .manifesto__h2{
+        margin: 0;
+
+        font-family: 'IDEOLOGY';
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+
+        text-transform: uppercase;
+    }
+
+    .manifesto__img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-top: 12px;
+    }
+
+    .manifesto__text{
+        margin-bottom: 45px;
+        margin-top: 16px;
+
+        font-family: 'IDEOLOGY';
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+
+        color: #030303;
+    }
 }
