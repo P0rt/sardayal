@@ -86,8 +86,6 @@
         position: relative;
         border-radius: 50px;
     }
-}
-@media screen and (max-width: 320px) {
     .topic__text {
         display: block;
         max-width: 1160px;

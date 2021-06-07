@@ -70,6 +70,8 @@
     .manifesto__text{
         margin-bottom: 45px;
         margin-top: 16px;
-
+        font-size: 24px;
+        line-height: 34px;
         font-family: 'IDEOLOGY';
+    }
 }
