@@ -120,6 +120,7 @@ a {
     display: none;
 }
 
+
 @media screen and (max-width: 640px) {
     .future-news__grid {
         display: grid;
@@ -170,5 +171,14 @@ a {
 
     .button-cells:hover{
         background-color: #EECB45;
+    }
+
+    .future-news__grid-pressed {
+        display: grid;
+        max-width: 387px;
+        grid-template-rows: 326px repeat(9);
+        grid-template-columns: 1fr;
+        border-radius: 25px;
+        margin: auto;
     }
 }
