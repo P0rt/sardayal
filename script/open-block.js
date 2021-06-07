@@ -1,7 +1,18 @@
 document.getElementById('button-cells').onclick = function() {
-    document.getElementById('fn__grid').classList.add('future-news__grid-pressed');
-    var elements = document.getElementsByClassName("odd__cells");
-    for (let i=0; i<6;i++){
-        elements[0].classList.remove("odd__cells");
+    if (document.getElementById('fn__grid').classList.contains('future-news__grid-pressed')) {
+    document.getElementById('fn__grid').classList.remove('future-news__grid-pressed');
+    document.getElementById('button-cells').classList.remove('button__rotate');
+    var elements = document.getElementsByClassName("table__cell");
+    for (let i=3; i<9;i++){
+        elements[i].classList.add("odd__cells");
+        }
     }
-  }
+    else {
+        document.getElementById('fn__grid').classList.add('future-news__grid-pressed');
+        document.getElementById('button-cells').classList.add('button__rotate');
+        var elements = document.getElementsByClassName("odd__cells");
+        for (let i=0; i<6;i++){
+            elements[0].classList.remove("odd__cells");
+            }
+    }
+}

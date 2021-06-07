@@ -175,6 +175,10 @@ a {
         background-color: white;
     }
 
+    .button__rotate {
+        transform: rotate(180deg);
+    }
+
     .button-cells:hover{
         background-color: #EECB45;
     }
