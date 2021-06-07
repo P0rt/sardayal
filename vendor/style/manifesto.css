@@ -23,6 +23,7 @@
     padding: 0;
     margin-top: 40px;
 }
+
 .manifesto__text{
     margin-bottom: 80px;
     margin-top: 40px;
@@ -36,6 +37,7 @@
 
     color: #030303;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 640px){
     .manifesto{
         max-width: 640px;
@@ -70,12 +72,4 @@
         margin-top: 16px;
 
         font-family: 'IDEOLOGY';
-
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 34px;
-
-        color: #030303;
-    }
 }

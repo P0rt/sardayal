@@ -38,6 +38,13 @@
     border-radius: 50px;
 
 }
+.news__image-box1 {
+    object-fit: cover;
+    width: 387px;
+    position: relative;
+    border-radius: 50px;
+
+}
 
 .news__cards-img {
     object-fit: cover;
@@ -64,10 +71,20 @@
         display: flex;
         justify-content: space-around;
         max-width: 387px;
+        width: 100%;
         border: 2px solid #EECB45;
         border-radius: 25px;
         margin-top: 36px;
         margin: auto;
+    }
+    .news__image-box {
+        display: none;
+    }
+    .news__image-box1 {
+        object-fit: cover;
+        width: 387px;
+        position: relative;
+        border-radius: 50px;
     }
 }
 @media screen and (max-width: 320px) {
