@@ -9,7 +9,47 @@
 @import './topic.css';
 @import './swiper-bundle.min.css';
 
+.swiper-button-prev {
+    width: 64px;
+    height: 64px;
+    Background-color: white;
 
+    margin-right: auto;
+    margin-left: 68px;
+
+    box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
+    border-radius: 120px;
+}
+
+.swiper-button-next {
+    width: 64px;
+    height: 64px;
+
+    Background-color: white;
+    margin-right: 150px;
+    margin-left: auto;
+
+    box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
+    border-radius: 120px;
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next {
+    content: "prev";
+    }
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev {
+    content: "next";
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 25px;
+    /* text-transform: none !important; */
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+    }
 h3{
     text-transform: uppercase;
 }
