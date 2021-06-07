@@ -137,6 +137,12 @@ a {
     ul li:nth-child(3){
         border-radius: 0 0 24px 24px;
     }
+    ul li:nth-child(7){
+        border-radius: 0 0 0 0;
+    }
+    ul li:nth-child(9){
+        border-radius: 0 0 24px 24px;
+    }
 
     .future-news__caption{
         margin-top: 24px;
