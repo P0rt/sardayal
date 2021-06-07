@@ -5,39 +5,6 @@
     <meta charset="utf-8">
     <meta name="description" content="краткое описание">
     <meta name="keywords" content="важные, ключевые, слова">
-
-    <style>
-
-      .swiper-container {
-        max-width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper-slide {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        margin: 0;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-      }
-    </style>
 </head>
 <body>
     <main>
@@ -164,7 +131,7 @@
             </div>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" style="height: 816px;">
                     <section class="interview__block">
                         <section class="interview__block-img">
                             <p class="interview__block-img_name">Эля</p>
@@ -388,6 +355,7 @@
     <script>
         let swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
+          autoHeight: true,
           spaceBetween: 40,
           centerInsufficientSlides:true,
           grabCursor: true,
@@ -401,6 +369,7 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }
+
 
         });
       </script>
