@@ -164,7 +164,7 @@
             </div>
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="margin-left: 100px;">
+                  <div class="swiper-slide">
                     <section class="interview__block">
                         <section>
                             <p class="interview__block_name">Эля</p>
@@ -388,14 +388,11 @@
     <script>
         let swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
-          width: 1160,
-          spaceBetween: 0,
+          spaceBetween: 40,
           centerInsufficientSlides:true,
           grabCursor: true,
           slidesPerGroup: 1,
           slidesPerColumn: 1,
-          direction: 'horizontal',
-          effect: 'slide',
           keyboard: {
             enabled: true,
           },
@@ -403,16 +400,7 @@
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-          },
-          breakpoints: {
-                // when window width is >= 320px
-                320: {
-                    width: 320
-                },
-                640:{
-                    
-                }
-            }
+          }
 
         });
       </script>
