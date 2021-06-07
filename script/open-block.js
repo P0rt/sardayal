@@ -5,6 +5,4 @@ document.getElementById('button-cells').onclick = function() {
         elements[i].classList.remove("odd__cells");
         elements[i+1].classList.remove("odd__cells");
     }
-    console.log(elements);
-    elements[5].classList.remove("odd__cells");
   }

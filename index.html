@@ -5,42 +5,8 @@
     <meta charset="utf-8">
     <meta name="description" content="краткое описание">
     <meta name="keywords" content="важные, ключевые, слова">
-<<<<<<< HEAD
-=======
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <style>
 
-      .swiper-container {
-        max-width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper-slide {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        margin: 0;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-      }
-    </style>
->>>>>>> 57af9e7281c5580fe156b7bfa8309d8b4ce48220
 </head>
 <body>
     <main>
@@ -65,7 +31,7 @@
             <p class="future-news__caption margin" style="margin-top: 24px;">
                 В первый день ребята освоили самый простой жанр — новость. Мы предложили пофантазировать, о чём писала бы редакция газеты ЖДС через 10 лет. По тому, какие темы в 2029 году они выбрали, хорошо видно, что волнует их сейчас.
               </p>
-            <ul class="future-news__grid margin" style="margin-top: 60px">
+            <ul class="future-news__grid" id="fn__grid" style="margin-top: 60px">
                 <li class="table__cell">
                     <a href="./pages/meteor.html">
                         <div class="image__box">
@@ -158,7 +124,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="button-cells" background_imag></div>
+            <div class="button-cells" id='button-cells'></div>
         </section>
         <section class="interview">
             <div class="interview__text">
@@ -389,6 +355,7 @@
             <p class="manifesto__text">Редакция ЖДС вместе со Школой позитивных привычек составили манифест хорошей жизни Сардаяла. Каждое из этих дел может сделать нашу деревню лучше. И вашу тоже.</p>
         </section>
     </main>
+    <script src="./script/open-block.js"></script>
     <script>
         let swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
