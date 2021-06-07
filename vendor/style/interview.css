@@ -140,7 +140,7 @@
     }
     .interview__block_name{
         position:absolute;
-        
+
         font-family: 'IDEOLOGY';
         font-style: normal;
         font-weight: 500;
@@ -148,5 +148,11 @@
         line-height: 46px;
 
         color: #FFFFFF;
+    }
+    .swiper-button-next{
+        visibility: hidden;
+    }
+    .swiper-button-prev{
+        visibility: hidden;
     }
 }
