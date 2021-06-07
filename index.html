@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
 <head>
     <link href="./vendor/style/main.css" rel="stylesheet">
     <title>Газета Сардаял</title>
     <meta charset="utf-8">
     <meta name="description" content="краткое описание">
     <meta name="keywords" content="важные, ключевые, слова">
+<<<<<<< HEAD
+=======
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <style>
+
+      .swiper-container {
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        margin: 0;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+>>>>>>> 57af9e7281c5580fe156b7bfa8309d8b4ce48220
 </head>
 <body>
     <main>
@@ -30,7 +65,7 @@
             <p class="future-news__caption margin" style="margin-top: 24px;">
                 В первый день ребята освоили самый простой жанр — новость. Мы предложили пофантазировать, о чём писала бы редакция газеты ЖДС через 10 лет. По тому, какие темы в 2029 году они выбрали, хорошо видно, что волнует их сейчас.
               </p>
-            <ul class="future-news__grid" id="fn__grid" style="margin-top: 60px">
+            <ul class="future-news__grid margin" style="margin-top: 60px">
                 <li class="table__cell">
                     <a href="./pages/meteor.html">
                         <div class="image__box">
@@ -62,7 +97,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href="./pages/oldpersonhouse.html">
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/fourth_cell.png" alt="Построили дом для престарелых" class="cards__img">
@@ -72,7 +107,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href='./pages/food.html'>
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/fifth_cell.png" alt="Открылся ларёк с марийской едой" class="cards__img">
@@ -82,7 +117,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href="./pages/culturecenter.html">
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/sixth_cell.png" alt="Сардаял стал культурным центром России" class="cards__img">
@@ -92,7 +127,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href="./pages/newschool.html">
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/seventh_cell.png" alt="Открылась новая школа" class="cards__img">
@@ -102,7 +137,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href="./pages/NPP.html">
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/eighth_cell.png" alt="Планируют построить АЭС" class="cards__img">
@@ -112,7 +147,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="table__cell odd__cells" id="odd__cell">
+                <li class="table__cell odd__cells">
                     <a href="./pages/chocolatepool.html">
                         <div class="image__box">
                             <img src="./vendor/img/cell_img/nineth_cell.png" alt="Прорыли самый большой в мире бассейн с шоколадом" class="cards__img">
@@ -123,7 +158,7 @@
                     </a>
                 </li>
             </ul>
-            <button class="button-cells" id="button-cells"></button>
+            <div class="button-cells" background_imag></div>
         </section>
         <section class="interview">
             <div class="interview__text">
@@ -258,29 +293,6 @@
                 <div class="swiper-pagination"></div>
             </div>
               <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-              <script>
-                let swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 1,
-                  width: 1160,
-                  spaceBetween: 0,
-                  centerInsufficientSlides:true,
-                  grabCursor: true,
-                  slidesPerGroup: 1,
-                  slidesPerColumn: 1,
-                  direction: 'horizontal',
-                  effect: 'slide',
-                  keyboard: {
-                    enabled: true,
-                  },
-
-                  navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                  },
-
-                });
-              </script>
         </section>
         <section class="photoreport">
             <h2 class="photoreport__h2">Фоторепортаж</h2>
@@ -377,9 +389,6 @@
             <p class="manifesto__text">Редакция ЖДС вместе со Школой позитивных привычек составили манифест хорошей жизни Сардаяла. Каждое из этих дел может сделать нашу деревню лучше. И вашу тоже.</p>
         </section>
     </main>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <script src="./script/swiper-bundle.min.js"></script>
     <script>
         let swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
@@ -401,11 +410,4 @@
 
         });
       </script>
-=======
-    <footer></footer>
->>>>>>> 57af9e7281c5580fe156b7bfa8309d8b4ce48220
-=======
-    <script src="./script/open-block.js" ></script>
->>>>>>> 907a56bed1408101fb9b9ca25c36a4513464e1dd
 </body>
-</html>
