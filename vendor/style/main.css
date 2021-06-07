@@ -36,9 +36,11 @@
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next {
     content: "prev";
     }
+
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev {
     content: "next";
 }
+
 .swiper-button-next:after, .swiper-button-prev:after {
     font-family: swiper-icons;
     font-size: 25px;
