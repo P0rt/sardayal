@@ -133,7 +133,7 @@
         font-family: "IDEOLOGY-regular";
         font-size: 2vw;
         line-height: 23px;
-        max-width: 760px;
+        /* max-width: 760px; */
         width: 100%;
         margin: auto;
         margin-top: 8px;
@@ -144,7 +144,8 @@
         font-weight: 500;
         font-size: 5vw;
         line-height: 34px;
-        max-width: 760px;
+        /* max-width: 760px; */
+        background-color: red;
         width: 100%;
         margin: auto;
         margin-top: 32px;
