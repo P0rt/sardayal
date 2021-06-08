@@ -1,5 +1,6 @@
 .pages {
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .pages__image-box {

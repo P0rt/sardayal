@@ -1,5 +1,6 @@
 .article {
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .article__image-box_main {
@@ -7,15 +8,37 @@
     max-width: 760px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 40px
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.article__img_main {
+.article__img_main-1 {
+
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.article__img_main-2{
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+.article__header{
+    font-family: 'IDEOLOGY';
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
 }
 
 .article__h1 {
@@ -31,6 +54,7 @@
     margin: auto;
     margin-top: 40px;
 }
+
 
 .article__text {
     font-family: "IDEOLOGY-regular";
