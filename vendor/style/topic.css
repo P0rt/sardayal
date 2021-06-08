@@ -1,10 +1,17 @@
-.topic__h2{
+.topic {
+    max-width: 1160px;
+    margin: auto;
     margin-top: 160px;
+    padding: 0 16px 0 16px;
+}
+.topic__h2{
+    margin: 0;
     font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
+
     text-transform: uppercase;
 }
 
@@ -18,7 +25,7 @@
     line-height: 57px;
     color: #EECB45;
     margin: auto;
-    margin-bottom: 26px;
+    margin-top: 24px;
 }
 
 .topic__grid {
@@ -27,8 +34,8 @@
     max-width: 1160px;
     border: 2px solid #EECB45;
     border-radius: 25px;
-    margin-top: 36px;
     margin: auto;
+    margin-top: 30px;
 }
 
 .topic__image-box {
@@ -74,8 +81,8 @@
         width: 100%;
         border: 2px solid #EECB45;
         border-radius: 25px;
-        margin-top: 36px;
         margin: auto;
+        margin-top: 12px;
     }
     .topic__image-box {
         display: none;
@@ -96,7 +103,13 @@
         line-height: 34px;
         color: #EECB45;
         margin: auto;
-        margin-bottom: 26px;
+        margin-top: 12px;
+    }
+    .topic {
+        max-width: 1160px;
+        margin: auto;
+        margin-top: 40px;
+        padding: 0 16px 0 16px;
     }
 
 }
