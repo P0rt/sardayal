@@ -26,6 +26,7 @@
     grid-template-columns: repeat(3, 1fr);
     border-radius: 25px;
     list-style: none;
+    margin-top: 60px;
 }
 
 ul li:nth-child(1){
@@ -89,12 +90,13 @@ a {
     max-width: 1160px;
     margin: auto;
     margin-top: 80px;
+    padding: 0 16px 0 16px;
 }
 
 .future-news__h2{
     margin: 0;
 
-    font-family: 'IDEOLOGY-regular';
+    font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -122,6 +124,11 @@ a {
 
 
 @media screen and (max-width: 640px) {
+    .future-news{
+        margin: auto;
+        margin-top: 40px;
+        padding: 0 16px 0 16px;
+    }
     .future-news__grid {
         display: grid;
         max-width: 387px;
@@ -129,6 +136,7 @@ a {
         grid-template-columns: 1fr;
         border-radius: 25px;
         margin: auto;
+        margin-top: 24px;
     }
     ul li:nth-child(1){
         border-radius: 24px 24px 0 0 ;

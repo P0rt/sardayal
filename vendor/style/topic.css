@@ -1,10 +1,17 @@
-.topic__h2{
+.topic {
+    max-width: 1160px;
+    margin: auto;
     margin-top: 160px;
+    padding: 0 16px 0 16px;
+}
+.topic__h2{
+    margin: 0;
     font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
+
     text-transform: uppercase;
 }
 
@@ -97,6 +104,12 @@
         color: #EECB45;
         margin: auto;
         margin-bottom: 26px;
+    }
+    .topic {
+        max-width: 1160px;
+        margin: auto;
+        margin-top: 40px;
+        padding: 0 16px 0 16px;
     }
 
 }
