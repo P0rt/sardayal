@@ -25,7 +25,7 @@
     line-height: 57px;
     color: #EECB45;
     margin: auto;
-    margin-bottom: 26px;
+    margin-top: 24px;
 }
 
 .topic__grid {
@@ -34,8 +34,8 @@
     max-width: 1160px;
     border: 2px solid #EECB45;
     border-radius: 25px;
-    margin-top: 36px;
     margin: auto;
+    margin-top: 30px;
 }
 
 .topic__image-box {
@@ -81,8 +81,8 @@
         width: 100%;
         border: 2px solid #EECB45;
         border-radius: 25px;
-        margin-top: 36px;
         margin: auto;
+        margin-top: 12px;
     }
     .topic__image-box {
         display: none;
@@ -103,7 +103,7 @@
         line-height: 34px;
         color: #EECB45;
         margin: auto;
-        margin-bottom: 26px;
+        margin-top: 12px;
     }
     .topic {
         max-width: 1160px;
