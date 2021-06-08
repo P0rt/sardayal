@@ -10,6 +10,13 @@
 @import './article.css';
 @import './swiper-bundle.min.css';
 
+/* это исправляет баг для мобильного safari в ios 14 */
+
+* {
+    -webkit-locale: auto;
+    white-space: normal;
+}
+
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     right: 0;
     left: 1160px;
