@@ -6,27 +6,20 @@
 .article__image-box_main {
     background-color: white;
     max-width: 760px;
+    max-height: 254px;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.article__img_main-1 {
-
-    object-fit: cover;
+.article__img_main {
+    object-fit:contain;
     width: 100%;
     height: 100%;
 }
-
-.article__img_main-2{
-    object-fit: cover;
-
-    width: 100%;
-    height: 100%;
-}
-
 .article__header{
     font-family: 'IDEOLOGY';
 
