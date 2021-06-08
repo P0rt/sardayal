@@ -38,6 +38,10 @@
     margin-top: 30px;
 }
 
+.topic__grid:hover {
+    background-color: #EECB45;
+}
+
 .topic__image-box {
     object-fit: cover;
     width: 387px;
@@ -69,6 +73,7 @@
     line-height: 34px;
     left: 24px;
     bottom: 0;
+    text-decoration: none;
 }
 @media screen and (max-width: 640px) {
     .second__img {
