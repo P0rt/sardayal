@@ -7,6 +7,7 @@
 @import './manifesto.css';
 @import './pages.css';
 @import './topic.css';
+@import './article.css';
 @import './swiper-bundle.min.css';
 
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{

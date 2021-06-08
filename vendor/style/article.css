@@ -1,8 +1,8 @@
-.pages {
+.article {
     padding: 16px;
 }
 
-.pages__image-box {
+.article__image-box_main {
     background-color: white;
     max-width: 760px;
     width: 100%;
@@ -12,12 +12,77 @@
     margin-top: 40px
 }
 
-.pages__img_main {
+.article__img_main {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
+.article__h1 {
+    font-family: 'IDEOLOGY';
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.article__text {
+    font-family: "IDEOLOGY-regular";
+
+    font-size: 24px;
+    line-height: 34px;
+
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+    margin-top: 16px;
+}
+.article__image-box_full{
+    max-width: 760px;
+    width: 100%;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 60px
+}
+.article__img_full{
+    object-fit: cover;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+}
+.article__rubric {
+    font-family: 'IDEOLOGY-regular';
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-transform: uppercase;
+}
+
+.article__ending {
+    display: flex;
+    justify-content: space-between;
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.article__authors {
+    font-family: 'IDEOLOGY-regular';
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
 .button__style {
     background-color: white;
 
@@ -49,61 +114,8 @@
     margin-top: 40px;
 }
 
-.pages__h1 {
-    font-family: 'IDEOLOGY';
-
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 57px;
-
-    max-width: 760px;
-    width: 100%;
-    margin: auto;
-    margin-top: 40px;
-}
-
-.pages__text {
-    font-family: "IDEOLOGY-regular";
-
-    font-size: 24px;
-    line-height: 34px;
-
-    max-width: 760px;
-    width: 100%;
-    margin: auto;
-    margin-top: 16px;
-}
-
-.pages__rubric {
-    font-family: 'IDEOLOGY-regular';
-
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-
-    text-transform: uppercase;
-}
-
-.pages__ending {
-    display: flex;
-    justify-content: space-between;
-    max-width: 760px;
-    width: 100%;
-    margin: auto;
-    margin-top: 32px;
-}
-
-.pages__authors {
-    font-family: 'IDEOLOGY-regular';
-
-    font-style: normal;
-    font-size: 16px;
-    line-height: 23px;
-}
-
 @media screen and (min-width: 320px) and (max-width: 640px) {
-    .pages__authors {
+    .article__authors {
         font-family: 'IDEOLOGY-regular';
 
         font-style: normal;
@@ -112,7 +124,7 @@
         margin-top: 4px;
     }
 
-    .pages__rubric {
+    .article__rubric {
         font-family: 'IDEOLOGY-regular';
 
         font-style: normal;
@@ -125,7 +137,7 @@
         width: 200px;
     }
 
-    .pages__ending {
+    .article__ending {
         display: flex;
         justify-content: space-between;
 
@@ -138,7 +150,7 @@
         flex-direction: column-reverse;
     }
 
-    .pages__text {
+    .article__text {
         font-family: "IDEOLOGY-regular";
 
         font-size: 16px;
@@ -150,7 +162,7 @@
         margin-top: 8px;
     }
 
-    .pages__h1 {
+    .article__h1 {
         font-family: 'IDEOLOGY';
 
         font-weight: 500;
