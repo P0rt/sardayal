@@ -37,6 +37,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
+    text-decoration:none;
 }
 
 .button__style:hover{
