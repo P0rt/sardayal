@@ -1,6 +1,6 @@
-.topic__start{
+.topic__h2{
     margin-top: 160px;
-    font-family: 'IDEOLOGY-regular';
+    font-family: 'IDEOLOGY';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -21,7 +21,7 @@
     margin-bottom: 26px;
 }
 
-.news__grid {
+.topic__grid {
     display: flex;
     justify-content: space-around;
     max-width: 1160px;
@@ -31,14 +31,14 @@
     margin: auto;
 }
 
-.news__image-box {
+.topic__image-box {
     object-fit: cover;
     width: 387px;
     position: relative;
     border-radius: 50px;
 
 }
-.news__image-box1 {
+.topic__image-box1 {
     object-fit: cover;
     width: 387px;
     position: relative;
@@ -46,20 +46,20 @@
 
 }
 
-.news__cards-img {
+.topic__cards-img {
     object-fit: cover;
     max-width: 387px;
     width: 100%;
     border-radius: 50px;
 }
 
-.news__text {
-    font-family: 'IDEOLOGY-regular';
+.grid__text {
+    font-family: 'IDEOLOGY';
+    position: absolute  ;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5em;
     line-height: 34px;
-    position: absolute;
     left: 24px;
     bottom: 0;
 }
@@ -67,7 +67,7 @@
     .second__img {
         display: none;
     }
-    .news__grid {
+    .topic__grid {
         display: flex;
         justify-content: space-around;
         max-width: 387px;
@@ -77,10 +77,10 @@
         margin-top: 36px;
         margin: auto;
     }
-    .news__image-box {
+    .topic__image-box {
         display: none;
     }
-    .news__image-box1 {
+    .topic__image-box1 {
         object-fit: cover;
         width: 387px;
         position: relative;
@@ -89,7 +89,7 @@
     .topic__text {
         display: block;
         max-width: 1160px;
-        font-family: 'IDEOLOGY', Arial;
+        font-family: 'IDEOLOGY';
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
