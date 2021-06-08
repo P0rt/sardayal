@@ -8,20 +8,32 @@
 @import './pages.css';
 @import './topic.css';
 @import './swiper-bundle.min.css';
-/* .buttons{
-    display: block;
-    width: 1160px;
+.swiper-button{
+    display: flex;
     margin-left: auto;
-    margin-right: 1000px;
-} */
+    margin-right: auto;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: 0;
+    left: 1160px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev{
+    right: 1160px;
+    left: 0;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    margin-left: auto;
+    margin-right: auto;
+}
 .swiper-button-prev {
 
     width: 64px;
     height: 64px;
     Background-color: white;
 
-    margin-right: auto;
-    margin-left: 98px;
+    /* margin-right: auto;
+    margin-left: 98px; */
 
     box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
     border-radius: 120px;
@@ -32,8 +44,8 @@
     height: 64px;
 
     Background-color: white;
-    margin-right: 120px;
-    margin-left: auto;
+    /* margin-right: 120px;
+    margin-left: auto; */
 
     box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
     border-radius: 120px;
@@ -83,6 +95,21 @@ h3{
 
         box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
         border-radius: 120px;
+    }
+
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+        right: 0;
+        left: auto;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-prev{
+        right: auto;
+        left: 0;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
