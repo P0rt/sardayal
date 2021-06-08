@@ -105,8 +105,6 @@
 @media screen and (max-width: 640px) {
     .pages__authors {
         font-family: 'IDEOLOGY-regular';
-
-        font-style: normal;
         font-size: 12px;
         line-height: 17px;
         margin-top: 4px;
@@ -114,36 +112,27 @@
 
     .pages__rubric {
         font-family: 'IDEOLOGY-regular';
-
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 17px;
-
         text-transform: uppercase;
-
         width: 200px;
     }
 
     .pages__ending {
         display: flex;
         justify-content: space-between;
-
         max-width: 760px;
         width: 100%;
         margin: auto;
         margin-top: 24px;
-
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
 
     .pages__text {
         font-family: "IDEOLOGY-regular";
-
-        font-size: 16px;
+        font-size: 2vw;
         line-height: 23px;
-
         max-width: 760px;
         width: 100%;
         margin: auto;
@@ -152,11 +141,9 @@
 
     .pages__h1 {
         font-family: 'IDEOLOGY';
-
         font-weight: 500;
-        font-size: 24px;
+        font-size: 5vw;
         line-height: 34px;
-
         max-width: 760px;
         width: 100%;
         margin: auto;
