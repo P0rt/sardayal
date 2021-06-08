@@ -8,14 +8,20 @@
 @import './pages.css';
 @import './topic.css';
 @import './swiper-bundle.min.css';
-
+/* .buttons{
+    display: block;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: 1000px;
+} */
 .swiper-button-prev {
+
     width: 64px;
     height: 64px;
     Background-color: white;
 
     margin-right: auto;
-    margin-left: 68px;
+    margin-left: 98px;
 
     box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
     border-radius: 120px;
@@ -26,7 +32,7 @@
     height: 64px;
 
     Background-color: white;
-    margin-right: 150px;
+    margin-right: 120px;
     margin-left: auto;
 
     box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
@@ -52,6 +58,33 @@
     }
 h3{
     text-transform: uppercase;
+}
+@media screen and (max-width: 1160px ){
+    .swiper-button-prev {
+
+        width: 64px;
+        height: 64px;
+        Background-color: white;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
+        border-radius: 120px;
+    }
+
+    .swiper-button-next {
+        width: 64px;
+        height: 64px;
+
+        Background-color: white;
+        margin-right: auto;
+        margin-left: auto;
+
+        box-shadow: 0px 27px 154px rgba(0, 0, 0, 0.12), 0px 4.97322px 31.5424px rgba(0, 0, 0, 0.0668478);
+        border-radius: 120px;
+    }
+
 }
 
 
