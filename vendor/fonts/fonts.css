@@ -1,3 +1,10 @@
+/* это исправляет баг для мобильного safari в ios 14 */
+
+* {
+    -webkit-locale: auto;
+    white-space: normal;
+}
+
 @font-face {
     font-family: 'IDEOLOGY-Regular';
     font-style:  normal;
