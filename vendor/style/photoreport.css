@@ -248,20 +248,6 @@
         line-height: 29px;
     }
 
-    .photoreport__fear_p{
-        display: block;
-
-        margin-top: 8px;
-        margin-left: 16px;
-        max-width: 288px;
-
-        font-family: 'IDEOLOGY-Regular';
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-    }
 
     .photoreport__softness_h3{
         display: block;
@@ -279,20 +265,7 @@
         line-height: 29px;
     }
 
-    .photoreport__softness_p{
-        display: block;
 
-        margin-top: 8px;
-        margin-left: 20px;
-        max-width: 288px;
-
-        font-family: 'IDEOLOGY-Regular';
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-    }
 
     .photoreport__happy_h3{
         display: block;
@@ -310,20 +283,6 @@
         line-height: 29px;
     }
 
-    .photoreport__happy_p{
-        display: block;
-
-        margin-top: 8px;
-        margin-left: 20px;
-        max-width: 545px;
-
-        font-family: 'IDEOLOGY-Regular';
-
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 34px;
-    }
 
     .img_photo_vert{
         width: 100%;
@@ -361,5 +320,51 @@
 
     .img_photo_hor:nth-child(6){
         display: none;
+    }
+}
+@media screen and (max-width: 875px){
+    .photoreport__fear_p{
+        display: block;
+
+        margin-top: 8px;
+        margin-left: 16px;
+        max-width: 288px;
+
+        font-family: 'IDEOLOGY-Regular';
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .photoreport__softness_p{
+        display: block;
+
+        margin-top: 8px;
+        margin-left: 20px;
+        max-width: 288px;
+
+        font-family: 'IDEOLOGY-Regular';
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .photoreport__happy_p{
+        display: block;
+
+        margin-top: 8px;
+        margin-left: 20px;
+        max-width: 545px;
+
+        font-family: 'IDEOLOGY-Regular';
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
     }
 }
