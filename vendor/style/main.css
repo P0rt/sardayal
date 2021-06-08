@@ -8,11 +8,7 @@
 @import './pages.css';
 @import './topic.css';
 @import './swiper-bundle.min.css';
-.swiper-button{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     right: 0;
     left: 1160px;
@@ -97,13 +93,17 @@ h3{
         border-radius: 120px;
     }
 
+
+
+}
+@media screen and (max-width: 1192px ){
     .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
-        right: 0;
+        right: -16px;
         left: auto;
     }
     .swiper-button-prev, .swiper-container-rtl .swiper-button-prev{
         right: auto;
-        left: 0;
+        left: -16px;
     }
 
     .swiper-button-next,
