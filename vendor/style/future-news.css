@@ -27,7 +27,7 @@
     border-radius: 25px;
     list-style: none;
     margin-top: 60px;
-    animation: slide-up 1s;
+    /* animation: slide-up 1s; */
 }
 
 ul li:nth-child(1){
@@ -181,10 +181,10 @@ a {
         background-color: white;
     }
 
-    .button__rotate {
+    /* .button__rotate {
         animation: button-rotate 3s;
         transform: rotate(180deg);
-    }
+    } */
 
     .button-cells:hover{
         background-color: #EECB45;
@@ -200,7 +200,7 @@ a {
         margin: auto;
     }
 }
-
+/*
 @keyframes slide-down {
     from {
       opacity: 0;
@@ -243,4 +243,4 @@ a {
       opacity: 0;
       transform: rotate(50%);
     }
-}
+} */
