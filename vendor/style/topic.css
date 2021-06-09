@@ -6,7 +6,7 @@
 }
 .topic__h2{
     margin: 0;
-    font-family: 'IDEOLOGY';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -18,7 +18,7 @@
 .topic__text {
     display: block;
     max-width: 1160px;
-    font-family: 'IDEOLOGY', Arial;
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -65,7 +65,7 @@
 }
 
 .grid__text {
-    font-family: 'IDEOLOGY';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     position: absolute  ;
     font-style: normal;
     font-weight: normal;
@@ -101,7 +101,7 @@
     .topic__text {
         display: block;
         max-width: 1160px;
-        font-family: 'IDEOLOGY';
+        font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 24px;

@@ -75,7 +75,7 @@ li{
     color: #030303;
     line-height: 34px;
     text-align: left;
-    font-family: 'IDEOLOGY-regular';
+    font-family: 'IDEOLOGY-regular', 'Tenor Sans', sans-serif;
     max-width: 355px;
     width: 100%;
     padding-left: 12px;
@@ -96,7 +96,7 @@ a {
 .future-news__h2{
     margin: 0;
 
-    font-family: 'IDEOLOGY';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -109,7 +109,7 @@ a {
     margin-top: 24px;
     margin-bottom: 0;
 
-    font-family: 'IDEOLOGY';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -157,7 +157,7 @@ a {
         margin-top: 24px;
         margin-bottom: 0;
 
-        font-family: 'IDEOLOGY';
+        font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
