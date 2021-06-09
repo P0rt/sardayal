@@ -25,7 +25,7 @@
 }
 
 .header__headers_1{
-    font-family: 'IDEOLOGY', 'Tenor Sans';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
     height: 184px;
     width: 260px;
     margin-left: 120px;
@@ -41,7 +41,7 @@
     height: 138px;
     width: 260px;
     text-align: right;
-    font-family: 'IDEOLOGY', 'Tenor Sans';
+    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
 
     word-wrap: break-word;
     margin-right: 120px;
@@ -65,7 +65,7 @@
     margin-left: 120px;
     margin-right: auto;
 
-    font-family: 'IDEOLOGY-Regular', 'Tenor Sans';
+    font-family: 'IDEOLOGY-Regular', 'Tenor Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -103,7 +103,7 @@
         height: 116px;
         margin-left: 16px;
 
-        font-family: 'IDEOLOGY', 'Tenor Sans';
+        font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -121,7 +121,7 @@
         margin-left: auto;
 
 
-        font-family: 'IDEOLOGY', 'Tenor Sans';
+        font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -140,7 +140,7 @@
         margin-right: auto;
         max-width: 288px;
 
-        font-family: 'IDEOLOGY-Regular', 'Tenor Sans';
+        font-family: 'IDEOLOGY-Regular', 'Tenor Sans', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
