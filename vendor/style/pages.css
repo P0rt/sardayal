@@ -29,6 +29,10 @@
     height: 74px;
     width: 100%;
 
+    -moz-transition: background-color 0.3s 0.1s ease;
+    -o-transition: background-color 0.3s 0.1s ease;
+    -webkit-transition: background-color 0.3s 0.1s ease;
+
     align-items: center;
     margin-bottom: 40px;
 
