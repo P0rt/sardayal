@@ -1,11 +1,19 @@
 @font-face {
-    src: url("./IDEOLOGY-Regular.woff") format("woff");
     font-family: 'IDEOLOGY-Regular';
-    font-weight:  400;
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./IDEOLOGY-Regular.woff") format("woff"),
+        url("./IDEOLOGY-Regular.woff2") format("woff2"),
+        url("./IDEOLOGY-Regular.otf") format("otf");
 
 }
 @font-face {
-    src: url("./IDEOLOGY2-MediumHeavy.woff") format("woff");
     font-family: 'IDEOLOGY';
-    font-weight:  700;
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./IDEOLOGY2-MediumHeavy.woff") format("woff"),
+        url("./IDEOLOGY2-MediumHeavy.woff2") format("woff2"),
+        url("./IDEOLOGY2-MediumHeavy.otf") format("otf");
 }
