@@ -27,6 +27,7 @@
     border-radius: 25px;
     list-style: none;
     margin-top: 60px;
+
 }
 
 ul li:nth-child(1){
@@ -53,7 +54,11 @@ ul li:nth-child(9){
     color: #AAA;
     display: flex;
 } */
-
+.table__cell{
+    -moz-transition: background-color 0.3s 0.1s ease;
+    -o-transition: background-color 0.3s 0.1s ease;
+    -webkit-transition: background-color 0.3s 0.1s ease;
+}
 .table__cell:hover{
     background: #EECB45;
 }
