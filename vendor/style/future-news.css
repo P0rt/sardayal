@@ -72,7 +72,13 @@ li{
     color: #030303;
     line-height: 34px;
     text-align: left;
+
     font-family: 'IDEOLOGY-regular', 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    
     max-width: 355px;
     width: 100%;
     padding-left: 12px;
