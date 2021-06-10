@@ -105,6 +105,10 @@
     margin: 0;
   }
 
+  .swiper-pagination{
+      display: none;
+  }
+
 @media screen and (min-width: 320px) and (max-width: 640px){
     .interview{
         margin-top: 20px;
@@ -158,7 +162,8 @@
     .interview__block_text{
         padding: 8px;
         margin: auto;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
+
 
         font-family: 'IDEOLOGY-Regular', 'Tenor Sans', sans-serif;
 
@@ -192,6 +197,10 @@
     }
     .swiper-button-prev{
         visibility: hidden;
+    }
+
+    .swiper-pagination{
+        display: block;
     }
 
 }
