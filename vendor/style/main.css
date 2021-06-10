@@ -17,6 +17,9 @@
     white-space: normal;
 }
 
+h3, h4, h5, h6 {
+    font-weight: normal;
+}
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     right: 0;
     left: 1160px;

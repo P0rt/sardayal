@@ -68,8 +68,9 @@
 }
 
 .grid__text {
-    font-family: 'IDEOLOGY', 'Tenor Sans', sans-serif;
-    position: absolute  ;
+    font-family: 'IDEOLOGY-regular';
+    position: absolute;
+    color: black;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5em;
